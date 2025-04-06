@@ -1,0 +1,29 @@
+﻿/* ---- Change Navbar Color ---- */
+.navbar {
+    background-color: green !important;
+}
+
+/* ---- Change Table Header ---- */
+table thead {
+    background-color: darkgreen;
+    color: white;
+}
+
+/* ---- Change Table Row Background ---- */
+table tbody tr {
+    background-color: #e0ffe0; /* Light green */
+}
+
+/* ---- Change Link Buttons ---- */
+.btn-link {
+    background-color: green;
+    color: white !important;
+    border: none;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+    /* ---- Button Link Hover Effect ---- */
+    .btn-link:hover {
+        background-color: darkgreen;
+    }

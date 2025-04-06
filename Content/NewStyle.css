@@ -1,0 +1,130 @@
+﻿/* ---- Body settings ---- */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #b5d3a7; /* Light green background */
+    font-family: Arial, sans-serif;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* ---- Header styling ---- */
+h1 {
+    border-bottom: 3px solid #4c7e3e; /* Dark green */
+    font-family: Georgia, serif;
+    color: #4c7e3e;
+}
+
+/* Main content container */
+#main {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 2px solid #4c7e3e;
+}
+
+/* ---- Menu settings ---- */
+#menu {
+    padding: 10px;
+    margin: 0;
+    background-color: #3e673c; /* Dark green */
+    text-align: left;
+}
+
+    #menu li {
+        display: inline;
+        margin-right: 10px;
+    }
+
+        #menu li a {
+            color: white;
+            background-color: #4c7e3e; /* Green */
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px 4px 0 0;
+            font-weight: bold;
+        }
+
+            #menu li a:hover {
+                background-color: #ffffff;
+                color: #4c7e3e;
+            }
+
+/* ---- Section styling ---- */
+.section {
+    background-color: #e8f5e1; /* Light green */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #4c7e3e;
+}
+
+/* Biography and Background */
+#biography {
+    display: flex;
+    align-items: center;
+}
+
+    #biography img {
+        width: 80px;
+        height: 80px;
+        margin-right: 15px;
+    }
+
+/* Hobbies section */
+#hobbies {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    #hobbies img {
+        width: 80px;
+        height: 80px;
+        margin-left: 15px;
+    }
+
+/* Modules section */
+#modules {
+    display: flex;
+    justify-content: space-between;
+}
+
+.module-column {
+    width: 45%;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #4c7e3e;
+    border-radius: 4px;
+}
+
+/* ---- Form settings ---- */
+form {
+    padding-left: 12px;
+}
+
+    form label {
+        display: block;
+        padding: 4px;
+    }
+
+input[type="text"], input[type="number"] {
+    width: 300px;
+}
+
+input[type="submit"] {
+    padding: 4px;
+}
+
+/* ---- Flip image effect ---- */
+.flip-image {
+    transition: transform 0.6s;
+}
+
+    .flip-image:hover {
+        transform: rotateY(180deg);
+    }

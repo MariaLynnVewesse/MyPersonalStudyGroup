@@ -1,0 +1,29 @@
+﻿
+
+body {
+    background-color: #cce5cc; /* soft green background */
+}
+
+.custom-card {
+    background-color: #f7f7f7; /* light grey for cards */
+    border: 1px solid #3c9141; /* green border */
+}
+
+.small-text {
+    font-size: 0.85rem; /* You can adjust the size to your preference */
+}
+
+
+.nav-tabs {
+    background-color: #2f2f2f !important; /* dark grey */
+}
+
+    .nav-tabs .nav-link {
+        color: white;
+        border: none;
+    }
+
+        .nav-tabs .nav-link.active {
+            background-color: #2d7a31 !important; /* green for active tab */
+            color: white !important;
+        }

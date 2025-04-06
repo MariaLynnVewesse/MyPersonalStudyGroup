@@ -1,0 +1,9 @@
+﻿/* ---- Active name highlighting ---- */
+.active-name {
+    background-color: white;
+    color: limegreen !important;
+    border-radius: 4px;
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: none;
+}
